@@ -14,6 +14,13 @@ And go further - what would you change if it were fifty boxes?
 ## Solution
 
 The solution is like a game where the user is asked for inputs and the program responds to them.
-The default range is (1, 3), and custom range is also accepted when running the program with CLI arguments, i.e, (1, 50).
+The default number of boxes is 3, which uses the range (1, 3). A custom range is also accepted when running the program with CLI arguments, i.e, (1, 50).
 
 Compiled with Java 17.0.1.
+Run with:
+```
+javac Main.java
+java Main 1 50
+```
+
+
